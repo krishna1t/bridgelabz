@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class volume_of_cylinder{
+	public static void main(String[]args){
+		Scanner input = new Scanner(System.in);
+		int r =input.nextInt();
+		int h = input.nextInt();
+		int V =(3.14*(r*r)*h);
+		System.out.print(V);
+}}			
+	

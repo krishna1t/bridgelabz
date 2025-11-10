@@ -1,0 +1,9 @@
+import java.util.Scanner;
+class power_calculation{
+	public static void main(String[]args){
+		Scanner input = new Scanner(System.in);
+		int a=inuput.nextInt();
+		int b = input.nextInt();
+		int N= Math.pow(a,b);
+		System.out.print(N);
+}}		

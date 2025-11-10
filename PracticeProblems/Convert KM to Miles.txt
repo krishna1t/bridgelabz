@@ -1,0 +1,8 @@
+import java.util.Scanner;
+class convert_km_to_files{
+	public static void main(String[]args){
+		Scanner input = new Scanner(System.in);
+		int K = input.NextInt();
+		int M = K* 0.621371;
+		System.out.print(M);
+}}

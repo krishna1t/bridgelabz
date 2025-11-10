@@ -1,0 +1,8 @@
+import java.util.Scanner;
+class celcius_to_farheniet{
+	public static void main(String[]args){
+		Scanner input = new Scanner(System.in);
+		int C=input.nextInt();
+		int F= (C * 9/5) + 32
+		System.out.print(F);
+}}	
